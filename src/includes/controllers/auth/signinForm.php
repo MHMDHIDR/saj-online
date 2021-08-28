@@ -26,7 +26,7 @@
 					'You need to activate your account first by clicking the link we sent you in your email, 
 						if you didn\'t find the email, 
 						<strong class="text-uppercase">
-							<a href="index?p=contact-us">contact the admin</a>
+							<a href="index?p=contact-us">contact the administrator</a>
 						</strong>',
 					'danger', '', true);
 			} else {
