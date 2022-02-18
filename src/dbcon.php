@@ -1,8 +1,8 @@
 <?php
 	// Connecting variables
-	$dsn			= 'mysql:host=localhost;dbname=saj';
+	$dsn			= 'mysql:host=localhost;dbname=saj.local';
 	$dbuser		= 'root';
-	$password = 'password';
+	$password = 'mhmdhidr';
 	$options 	= array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8');
 
 	try {
@@ -18,3 +18,5 @@
 			true
 		);
 	}
+
+?>

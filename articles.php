@@ -10,7 +10,7 @@
     	<!-- Individual Article Page Start -->
 				<?php require_once $controllersDir . 'articles/get-individual-article.php' ?>
       <div class="cta">
-        <a href="<?php echo $_SERVER['HTTP_REFERER'] ?>"
+        <a href="articles"
         class="btn btn-default center-block no-radius">
           Browse All Articles
         </a>

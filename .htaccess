@@ -30,9 +30,9 @@ RewriteRule ^(.*)$ $1.mp4
 # 404 => Not Found Page.
 # 403 => Forbidden to access.
 # 500 => Internal Server Error, server couldn't detect what is wrong.
-ErrorDocument 403 http://sudanacademicjournalresearch.online/incorrect-page
-ErrorDocument 404 http://sudanacademicjournalresearch.online/incorrect-page
-ErrorDocument 500 http://sudanacademicjournalresearch.online/incorrect-page
+ErrorDocument 403 http://dev.com/elmogiera_projects/saj.local/incorrect-page
+ErrorDocument 404 http://dev.com/elmogiera_projects/saj.local/incorrect-page
+ErrorDocument 500 http://dev.com/elmogiera_projects/saj.local/incorrect-page
 
 # Prevent users from entering specific directories
 Options -Indexes

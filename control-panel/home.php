@@ -20,7 +20,7 @@
         require_once $functionsDir . 'get/get-statistics.php';
         // Require getStatstic Function
         require_once $functionsDir . 'get/get-data.php';
-        require_once $viewsDir . 'home/control-panel.php'
+        require_once $viewsDir . 'home/control-panel.php';
       ?>
   		<?php elseif($page == 'Categories'):
         require_once $viewsDir . 'home/categories.php'
