@@ -1,5 +1,5 @@
 <?php
-	function getHomeSidebarData($column, $column2 = NULL, $table, $where, $order_by, $limit, $linkTo, $get, $get2, $errMsg) {
+	function getHomeSidebarData($column, $column2, $table, $where, $order_by, $limit, $linkTo, $get, $get2, $errMsg) {
 		global $con;
 		
 		$stmt = $con->prepare('SELECT '.$column.', '.$column2.' FROM '.$table.' '.$where.' ORDER BY '.$order_by.' LIMIT '.$limit.'');
